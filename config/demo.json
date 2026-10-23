@@ -1,0 +1,21 @@
+{
+  "data": "data/demo.csv",
+  "output": "outputs/demo",
+  "train_end": "2025-01-25 00:00:00",
+  "validation_end": "2025-02-01 00:00:00",
+  "model": {
+    "horizon": 96,
+    "lookback": 288,
+    "epochs": 5,
+    "channels": 8,
+    "train_stride": 16,
+    "predict_stride": 4,
+    "seed": 42
+  },
+  "windows": [
+    {"name": "event_1_core", "start": "2025-02-01 00:00:00", "end": "2025-02-03 00:00:00"},
+    {"name": "event_1_expanded", "start": "2025-02-01 00:00:00", "end": "2025-02-06 00:00:00"},
+    {"name": "event_2_core", "start": "2025-02-06 00:00:00", "end": "2025-02-08 00:00:00"},
+    {"name": "event_2_expanded", "start": "2025-02-04 00:00:00", "end": "2025-02-11 00:00:00"}
+  ]
+}

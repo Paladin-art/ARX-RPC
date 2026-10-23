@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+data/*.csv
+outputs/
+*.joblib
+*.pt
+*.xlsx
+*.xls
+.env
+.env.*
+.DS_Store
